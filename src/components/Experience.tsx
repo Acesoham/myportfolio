@@ -3,7 +3,7 @@ import { Calendar } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      title: 'Software Developer Intern',
+      title: 'Software  Intern',
       organization: 'Acrylic Solutions Pvt. Ltd. — Nashik, Maharashtra',
       period: 'March 2025 – July 2025',
       type: 'Internship',
