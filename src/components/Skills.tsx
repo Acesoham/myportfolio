@@ -9,7 +9,7 @@ export default function Skills() {
       skills: ['Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'JWT'],
     },
     {
-      title: 'Cloud & DevOps',
+      title: ' DevOps',
       skills: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Jenkins', 'Git', 'Linux','Ansible'],
     },
     {
