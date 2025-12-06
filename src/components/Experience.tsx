@@ -3,7 +3,7 @@ import { Calendar } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      title: 'Software  Intern',
+      title: 'Software Developer Intern',
       organization: 'Acrylic Solutions Pvt. Ltd. — Nashik, Maharashtra',
       period: 'March 2025 – July 2025',
       type: 'Internship',
@@ -17,7 +17,7 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="min-h-screen flex items-center justify-center px-6 py-20 bg-white">
+    <section id="experience" className="min-h-screen flex items-center justify-center px-4 md:px-6 py-14 md:py-20 bg-white">
       <div className="max-w-7xl w-full">
         <div className="space-y-16">
           <div className="space-y-4">

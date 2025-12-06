@@ -36,7 +36,7 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="min-h-screen flex items-center justify-center px-6 py-20 bg-white">
+    <section id="contact" className="min-h-screen flex items-center justify-center px-4 md:px-6 py-14 md:py-20 bg-white">
       <div className="max-w-7xl w-full">
         <div className="space-y-16">
           <div className="space-y-4">
@@ -44,7 +44,7 @@ export default function Contact() {
             <div className="w-20 h-1 bg-gray-800"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             <div className="space-y-8">
               <p className="text-lg text-gray-700 leading-relaxed">
                 I'm always open to discussing new projects, creative ideas, or opportunities

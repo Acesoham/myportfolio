@@ -43,7 +43,7 @@ export default function Header({ activeSection, setActiveSection }: HeaderProps)
         isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
       }`}
     >
-      <nav className="max-w-7xl mx-auto px-6 py-4">
+      <nav className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4">
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection('home')}
@@ -52,7 +52,7 @@ export default function Header({ activeSection, setActiveSection }: HeaderProps)
             
           </button>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6 md:space-x-8">
             {navItems.map((item) => (
               <button
                 key={item.id}

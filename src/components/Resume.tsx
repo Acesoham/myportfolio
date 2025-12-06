@@ -2,7 +2,7 @@ import { FileDown } from 'lucide-react';
 
 export default function Resume() {
   return (
-    <section id="resume" className="min-h-screen flex items-center justify-center px-6 py-20 bg-gray-50">
+    <section id="resume" className="min-h-screen flex items-center justify-center px-4 md:px-6 py-14 md:py-20 bg-gray-50">
       <div className="max-w-4xl w-full">
         <div className="space-y-16">
           <div className="space-y-4">
@@ -10,7 +10,7 @@ export default function Resume() {
             <div className="w-20 h-1 bg-gray-800"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8">
             <div className="bg-white border-2 border-gray-300 hover:border-gray-800 transition-colors p-8 space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="w-14 h-14 flex items-center justify-center bg-gray-800 text-white flex-shrink-0">

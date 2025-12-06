@@ -3,24 +3,26 @@ import { Code, Cloud, Server } from 'lucide-react';
 export default function About() {
   const highlights = [
     {
-      icon: Code,
-      title: 'Full Stack Development',
-      description: 'Building scalable web applications with MERN stack',
+      icon: Server,
+      title: 'DevOps Engineering',
+      description: 'Automating workflows and optimizing deployments',
     },
+    
     {
       icon: Cloud,
       title: 'Cloud Architecture',
       description: 'Designing and deploying solutions on AWS',
     },
+    
     {
-      icon: Server,
-      title: 'DevOps Engineering',
-      description: 'Automating workflows and optimizing deployments',
+      icon: Code,
+      title: 'Full Stack Development',
+      description: 'Building scalable web applications with MERN stack',
     },
   ];
 
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center px-6 py-20 bg-white">
+    <section id="about" className="min-h-screen flex items-center justify-center px-4 md:px-6 py-14 md:py-20 bg-white">
       <div className="max-w-7xl w-full">
         <div className="space-y-16">
           <div className="space-y-4">
@@ -28,7 +30,7 @@ export default function About() {
             <div className="w-20 h-1 bg-gray-800"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
                 I'm a passionate technology enthusiast currently pursuing my BTech in

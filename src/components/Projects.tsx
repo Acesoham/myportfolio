@@ -23,7 +23,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="min-h-screen flex items-center justify-center px-6 py-20 bg-gray-50">
+    <section id="projects" className="min-h-screen flex items-center justify-center px-4 md:px-6 py-14 md:py-20 bg-gray-50">
       <div className="max-w-7xl w-full">
         <div className="space-y-16">
           <div className="space-y-4">
@@ -31,7 +31,7 @@ export default function Projects() {
             <div className="w-20 h-1 bg-gray-800"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8">
             {projects.map((project, index) => (
               <div
                 key={index}

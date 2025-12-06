@@ -11,15 +11,15 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center px-6 pt-20 bg-gradient-to-br from-white to-gray-50"
+      className="min-h-screen flex items-center justify-center px-4 md:px-6 pt-16 md:pt-20 bg-gradient-to-br from-white to-gray-50"
     >
-      <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl w-full grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="space-y-6">
           <div className="space-y-2">
             <p className="text-sm font-medium text-gray-700 tracking-wide uppercase">
               Hello, I'm
             </p>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-black">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-black">
               Soham Gaikwad
             </h1>
           </div>
@@ -68,7 +68,7 @@ export default function Hero() {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <div className="relative w-64 h-80 md:w-72 md:h-96 overflow-hidden border-4 border-black shadow-lg">
+          <div className="relative w-48 h-64 sm:w-56 sm:h-72 md:w-64 md:h-80 lg:w-72 lg:h-96 overflow-hidden border-4 border-black shadow-lg">
             <img
               src="/photo.jpg"
               alt="Soham Gaikwad"
