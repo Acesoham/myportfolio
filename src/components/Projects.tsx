@@ -2,6 +2,29 @@ import { ExternalLink, Github } from 'lucide-react';
 
 export default function Projects() {
   const projects = [
+
+{
+  title: 'EduFlow – Cloud-Deployed LMS Platform (Jan 2026)',
+  description:
+    'Designed and deployed a full-stack Learning Management System (LMS) using the MERN stack with a production-ready DevOps setup.\n\n' +
+    'Containerized frontend and backend using Docker & Docker Compose, configured Nginx as a reverse proxy for API routing, and deployed the application on AWS EC2 with HTTPS (Let’s Encrypt). Debugged real-world production issues including API routing failures, port conflicts, SSL configuration, and Docker networking.',
+  technologies: [
+    'AWS EC2',
+    'Docker',
+    'Docker Compose',
+    'Nginx',
+    'MongoDB Atlas',
+    'Express.js',
+    'React.js',
+    'Node.js',
+    'Linux (Ubuntu)',
+    'Let’s Encrypt',
+  ],
+  github: 'https://github.com/Acesoham/LMSapp',
+  live: 'https://eduflow.duckdns.org',
+},
+
+
     {
       title: 'SpendSense – AI-powered Expense Tracker (Oct 2025)',
       description:
