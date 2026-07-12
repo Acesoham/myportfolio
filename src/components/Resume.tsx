@@ -25,14 +25,14 @@ export default function Resume() {
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="/resume.pdf"
+                  href="/SohamG-Resume.pdf"
                   download="Soham-Gaikwad-Resume.pdf"
                   className="inline-block w-full sm:w-auto py-3 px-6 bg-gray-800 text-white font-medium text-center hover:bg-gray-900 transition-colors"
                 >
                   Download PDF
                 </a>
                 <a
-                  href="/resume.pdf"
+                  href="/SohamG-Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full sm:w-auto py-3 px-6 border-2 border-gray-800 text-gray-800 font-medium text-center hover:bg-gray-800 hover:text-white transition-colors"
@@ -46,23 +46,26 @@ export default function Resume() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-semibold text-gray-900">Quick Summary</h3>
                 <ul className="space-y-3 text-gray-700">
-                  <li className="flex items-start space-x-3">
-                    <span className="text-gray-800 font-bold mt-1">•</span>
-                    <span>3rd Year BTech CSE student with strong foundation in full-stack development</span>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <span className="text-gray-800 font-bold mt-1">•</span>
-                    <span>Proficient in MERN stack with hands-on project experience</span>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <span className="text-gray-800 font-bold mt-1">•</span>
-                    <span>AWS certified enthusiast with DevOps and cloud architecture expertise</span>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <span className="text-gray-800 font-bold mt-1">•</span>
-                    <span>Strong problem-solving skills and passion for continuous learning</span>
-                  </li>
-                </ul>
+  <li className="flex items-start space-x-3">
+    <span className="text-gray-800 font-bold mt-1">•</span>
+    <span>3rd Year B.Tech Computer Science student passionate about Software Engineering and Cloud Computing.</span>
+  </li>
+
+  <li className="flex items-start space-x-3">
+    <span className="text-gray-800 font-bold mt-1">•</span>
+    <span>Built production-ready MERN applications deployed on AWS using Docker, Nginx and CI/CD.</span>
+  </li>
+
+  <li className="flex items-start space-x-3">
+    <span className="text-gray-800 font-bold mt-1">•</span>
+    <span>Hands-on experience with AWS EC2, Docker, Kubernetes, Jenkins, GitHub Actions and Cloudflare.</span>
+  </li>
+
+  <li className="flex items-start space-x-3">
+    <span className="text-gray-800 font-bold mt-1">•</span>
+    <span>Interested in Full Stack Development, DevOps, Cloud Infrastructure and System Design.</span>
+  </li>
+</ul>
               </div>
             </div>
           </div>
